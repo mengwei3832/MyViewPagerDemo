@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="LoopView">
+        <attr name="rate" format="integer"></attr>
+        <attr name="bottom_style" format="integer|reference"></attr>
+    </declare-styleable>
+
+    <integer name="loop_have_descript">1</integer>
+    <integer name="loop_no_descript_right">2</integer>
+    <integer name="loop_no_descript_center">3</integer>
+
+</resources>
